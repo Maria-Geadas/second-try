@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+}
+.container {
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  padding: 30px;
+  max-width: 1080px;
+  margin: 5px 20px 6px 2px;
+  border-radius: 10px;
+}
+section {
+  width: 75%;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  padding: 12px;
+  margin-top: 40px;
+  margin-left: 45px;
+  border-radius: 4px;
+}
+header {
+  margin-left: 435px;
+  padding: 15px 20px;
+}
+h2 {
+  margin-left: 550px;
+}
+h3 {
+  font-weight: 480;
+  font-size: 20px;
+  margin-left: 285px;
+}
+h3 .temperature {
+  margin-left: 200px;
+}
+h3 .wind {
+  margin-left: 200px;
+}
+.actualDate {
+  font-weight: 60;
+  font-size: 18px;
+  line-height: 8px;
+}
+i {
+  color: rgb(255, 223, 128);
+  font-size: 58px;
+}
