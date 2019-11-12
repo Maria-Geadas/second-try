@@ -20,26 +20,21 @@ header {
   margin-left: 435px;
   padding: 15px 20px;
 }
+h1 {
+  font-size: 22px;
+  padding: 42px;
+}
 h2 {
-  margin-left: 550px;
+  margin-left: 95px;
+  padding: 15px 20px;
 }
-h3 {
+li {
+  list-style: none;
   font-weight: 480;
-  font-size: 20px;
-  margin-left: 285px;
-}
-h3 .temperature {
-  margin-left: 200px;
-}
-h3 .wind {
-  margin-left: 200px;
+  font-size: 16px;
 }
 .actualDate {
   font-weight: 60;
   font-size: 18px;
-  line-height: 8px;
-}
-i {
-  color: rgb(255, 223, 128);
-  font-size: 58px;
+  line-height: 28px;
 }

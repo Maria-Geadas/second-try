@@ -27,10 +27,19 @@ update();
 function displayWeather(response) {
   let temperature = document.querySelector(".temperature");
   temperature.innerHTML = `${Math.round(response.data.main.temp)} ºC`;
+  let humidity = document.querySelector(".humidity");
+  humidity.innerHTML = `${Math.round(response.data.main.humidity)} %`;
   let wind = document.querySelector(".wind");
   let windSpeed = response.data.wind.speed * 3.6;
-
   wind.innerHTML = `${Math.round(windSpeed)} km/h`;
+  let condition = document.querySelector(".condition");
+  condition.innerHTML = response.data.weather[0].description;
+  let iconElement = document.querySelector("#icon");
+
+  iconElement.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
 }
 
 function defineCity(event) {

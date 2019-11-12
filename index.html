@@ -40,32 +40,59 @@
             </div>
           </form>
         </header>
-        <h1>
-          TODAY
-          <div class="actualDate">
-            date
+        <div class="row">
+          <div class="col-6">
+            <h1>
+              The weather today:
+              <div class="actualDate">
+                date
+              </div>
+            </h1>
           </div>
-        </h1>
-        <h2>
-          City
-        </h2>
-        <i class="fas fa-sun"></i>
-
-        <h3>
-          Current Temperature:
-          <div class="temperature">
-            temperature
+          <div class="col-6">
+            <h2>
+              City
+            </h2>
           </div>
-        </h3>
-        <h3>
-          Wind:
-          <div class="wind">
-            wind speed
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <img
+              src="http://ssl.gstatic.com/onebox/weather/64/sunny.png"
+              id="icon"
+              class="fas fa-sun"
+            />
+            <span class="condition">
+              condition
+            </span>
           </div>
-        </h3>
-        <h4>
-          icon
-        </h4>
+          <div class="col-3">
+            <ul>
+              <li>
+                Temperature:
+              </li>
+              <li>
+                Humidity:
+              </li>
+              <li>
+                Wind:
+              </li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <ul>
+              <li class="temperature">
+                ºC
+              </li>
+              <li class="humidity">
+                %
+              </li>
+              <li class="wind">
+                km/h
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
       <br />
       <br />
